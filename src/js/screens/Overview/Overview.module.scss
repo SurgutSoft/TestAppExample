@@ -1,0 +1,55 @@
+@import "src/styles/vars";
+
+
+.titleWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  .title {
+    @include H1_Bold;
+    font-weight: bold !important;
+    color: $color-text-black;
+  }
+}
+
+.widgetsWrapper {
+  display: flex;
+  width: 85%;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-top: $unit*6;
+
+  .raisedFrom {
+    font-weight: 600;
+  }
+}
+
+.receivedDonation {
+  svg {
+    position: absolute;
+    width: 16px;
+    
+    padding-left: $unit/2;
+  }
+}
+
+.chartWrapper {
+  padding-top: $unit*6;
+}
+
+.middleContentWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progressWrapper {
+  display: grid;
+  gap: $unit*2;
+}
+
+:export {
+  blue: $_blue-main;
+  purple: $_purple;
+  tickStroke: $color-text-secondary;
+}

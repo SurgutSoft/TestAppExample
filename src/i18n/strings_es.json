@@ -1,0 +1,127 @@
+{
+    "sidebar": {
+        "overview": "Descripción general",
+        "fundraiser": "Detalles de la recaudación de fondos",
+        "teams": "Equipos y líderes de equipo",
+        "students": "Estudiantes",
+        "donations": "Donaciones",
+        "print": "Imprimir carta de invitación"
+    },
+
+    "buttons": {
+        "edit": "Editar",
+        "delete": "Borrar",
+        "change": "Cambio",
+        "preview": "Avance",
+        "save": "Ahorrar",
+        "cancel": "Cancelar",
+        "upload": "Subir",
+        "export": "Exportar",
+        "add": "Agregar"
+    },
+
+    "fundraiser_details": {
+        "fundraiser_story": "Historia de la recaudación de fondos",
+        "fundraiser_name": "Nombre de la recaudación de fondos",
+        "end_date": "Fecha final",
+        "school_name": "Nombre de escuela",
+        "us_state": "Estado de EE. UU.",
+        "zip_code": "Código postal",
+        "city": "Ciudad",
+        "modal_upload_image_description": "Sube una foto desde tu computadora. Formatos admitidos: JPEG, PNG. El tamaño máximo de archivo es de 5 Mb.",
+        "modal_upload_video_description": "Inserte el enlace al video (de YouTube o Vimeo). Mantenga epmty para eliminar el video.",
+        "no_video": "No hay video",
+        "no_image": "Sin imágen",
+        "modal_upload_title": "Recaudación de fondos {0}",
+        "modal_upload_video_link": "enlace de video"
+    },
+
+    "fundraiser_options": {
+        "fundraiser_view_options": "Opciones de visualización de la recaudación de fondos",
+        "show_books_as_reading_goal": "Mostrar libros como objetivo de lectura",
+        "show_donor_messages_on_Donation_page": "Mostrar mensajes de donantes en la página de donaciones",
+        "allow_students_to_see_raised_donations_of_teammates": "Permita que los estudiantes vean las donaciones recaudadas de sus compañeros de equipo",
+        "allow_students_to_see_the_teammates_donation_pages": "Permita que los estudiantes vean las páginas de donación de sus compañeros de equipo"
+    },
+
+    "fundraiser_goals": {
+        "title": "Metas de la recaudación de fondos",
+        "fundraising_goal": "Objetivo de recaudación de fondos",
+        "student_goal": "Meta del estudiante",
+        "reading_minutes": "Actas de lectura",
+        "minutes_per_student": "Minutos por alumno",
+        "reading_books": "Libros de lectura",
+        "books_per_student": "Libros por alumno",
+        "students_count": "# estudiantes",
+        "participants_goal": "Meta de los participantes (# estudiantes)"
+    },
+
+    "students": {
+        "title": "Lista de estudiantes",
+        "sub_title": "{0} estudiantes de {1} registrados",
+        "invite_btn": "Invitar a los estudiantes",
+        "filters": {
+            "search_by_name_email": "Buscar por nombre / correo electrónico",
+            "registration_type": "Tipo de registro",
+            "team": "Equipo"
+        },
+        "table_columns": {
+            "name": "Nombre",
+            "active_at": "Activo en",
+            "grade": "Calificación",
+            "minutes": "¡Minutos!",
+            "books": "Libros",
+            "donations": "Donaciones"
+        }
+    },
+
+    "teams": {
+        "title": "Teams & Team leaders",
+        "sub_title": "Create all teams before inviting students to your fundraiser.",
+        "create_btn": "Create team",
+        "table_columns": {
+            "name": "TEAM LEADER NAME",
+            "registredCount": "STUDENTS REGISTERED / TOTAL",
+            "grade": "Grade",
+            "minutes": "Minutes",
+            "books": "Books",
+            "donations": "Donations"
+        }
+    },
+
+    "donations": {
+        "title": "Donations",
+        "download_csv": "Download CSV",
+        "yes": "yes",
+        "no": "no",
+        "view": "View",
+        "table_columns": {
+            "date": "Date",
+            "donation": "Donation",
+            "netAmount": "NET AMOUNT",
+            "fee": "FEE",
+            "donor": "Donor",
+            "comment": "Comment",
+            "corp_matvhing": "Corp. Matching",
+            "team": "Team",
+            "beneficiary": "Beneficiary",
+            "stripe": "STRIPE"
+        }
+    },
+
+    "overview": {
+        "fundraiser_report": "Fundraiser Report",
+        "reading_report": "Reading report",
+        "donation_list": "Donation list",
+        "sessions": "Sessions",
+        "minutes": "Minutes",
+        "books": "Books",
+        "raised_from": "Raised from ${0}",
+        "avg_donations_size": "Avg. Donation Size",
+        "avg_per_student": "Avg. Per Student",
+        "received_a_donation": "Received a donation",
+        "students_registred_total": "Students registered / total",
+        "minutes_read_goal": "Minutes read / goal",
+        "books_read_goal": "Books read / goal"
+    }
+}

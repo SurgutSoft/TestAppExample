@@ -1,0 +1,92 @@
+@import "src/styles/vars";
+
+.headerWrapper{
+  .headerInfo {
+    display: grid;
+    color: $_color-black;
+
+    .location{
+      font-size: 16px;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      font-weight: 400;
+
+      .widthWrapper {
+        display: flex;
+        width: 100%;
+      }
+
+      .locationInfo{
+        display: flex;
+
+        span {
+          padding-left: $unit;
+        }
+      }
+
+      .datePicker {
+        margin-left: $unit*2;
+      }
+
+      .btnWrapper{
+        display: flex;
+        button+button{
+          margin-left: $unit*2;
+        }
+      }
+    }
+
+    .name{
+      @include H1_Bold;
+    }
+
+    .description {
+      padding-top: $unit;
+      
+      .dayToEnd {
+        color: $color-text-red; 
+      }
+    }
+  }
+
+  .editedHeaderInfo {
+    @extend.headerInfo;
+    gap: 40px;
+  }
+}
+
+.divider{
+  position: absolute;
+  top: 180px;
+  left: 0px;
+  width: 900px;
+}
+
+.bodyWrapper {
+  padding-top: $unit*8;
+
+  .bodyTitle {
+    @include Title;
+  }
+
+  .bodyText {
+    @include TextRegular;
+    padding-top: $unit*2;
+    padding-right: 68px;
+    white-space: pre-wrap;
+  }
+}
+
+.editedBodyWrapper{
+  padding-top: 40px;
+}
+
+.mediaWrapper {
+  display: flex;
+  margin-top: $unit*3;
+
+  .videoWrapper{
+    margin-left: $unit*2;
+  }
+}

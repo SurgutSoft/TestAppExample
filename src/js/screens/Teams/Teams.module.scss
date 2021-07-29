@@ -1,0 +1,22 @@
+@import "src/styles/vars";
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  .pageTitleWrapper{
+    display: grid;
+
+    .title {
+      @include H1_Bold;
+      font-weight: bold !important;
+      color: $color-text-black;
+    }
+
+    .subTitle {
+      @include PrimarySemibold;
+      font-weight: 600;
+      color: $color-text-secondary;
+    }
+  }
+}

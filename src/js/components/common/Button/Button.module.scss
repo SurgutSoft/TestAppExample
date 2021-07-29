@@ -1,0 +1,34 @@
+@import "src/styles/vars";
+
+.button{
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
+}
+
+.root {
+  .input {
+    display: none;
+  }
+}
+
+.borderButton {
+  border: 1px solid $_blue-main;
+}
+
+:export {
+  primaryColorBtn: $_blue-main;
+  accentColorBtn: $_red;
+  linkColorBtn: $_gray_500;
+
+  whiteTextColorBtn: $color-white;
+  primaryTextColorBtn: $_blue-main;
+  redTextColorBtn: $color-text-red;
+
+  heightButton: $height-button;
+
+  whiteColorBg: $color-white;
+  primaryColorBg: $_blue-main;
+}

@@ -1,0 +1,56 @@
+@import "src/styles/vars";
+
+.wrapper{
+  background-color: $color-bg-dark-blue;
+  width: 170px;
+  height: 37px;
+  border-radius: $border-radius-big;
+  
+  button {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: $border-radius-big;
+    display: flex;
+    justify-content: space-between;
+
+    svg{
+      margin-right: $unit*2;
+    }
+
+    .userName{
+      @include PrimarySemibold;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: $color-text-white;
+      width: 82px;
+      padding: 0 $unit;
+      text-transform: none;
+    }
+
+
+    .itemWrapper {
+      @extend .userName;
+      width: 100%;
+    }
+
+    .avatarWrapper {
+      background-color: $color-bg-white;
+      border-radius: 100px;
+      width: 36px;
+      height: 36px;
+      overflow: hidden;
+  
+      img{
+        width: 36px;
+        height: 36px;
+      }
+    }
+  
+    .rotateArrow{
+      transform: rotate(-180deg);
+    }
+  }
+}

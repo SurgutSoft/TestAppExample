@@ -1,0 +1,16 @@
+@import "src/styles/vars";
+
+.AppLayout{
+  min-width: 960px;
+
+  .screen {
+    min-width: 600px;
+    //background-color: #fff;
+    //margin: 0 auto;
+    min-height: 500px;
+
+    @include mobile {
+      min-width: auto;
+    }
+  }
+}

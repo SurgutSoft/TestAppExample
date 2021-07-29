@@ -1,0 +1,41 @@
+@import "src/styles/vars";
+
+.wrapper {
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    .titleWrapper {
+      display: grid;
+
+      .title {
+        @include H1_Bold;
+        font-weight: 700;
+        color: $color-text-black;
+      }
+
+      .titleDescription {
+        @include PrimarySemibold;
+        color: $color-text-secondary;
+      }
+    }
+
+    .headerControls {
+      button + button {
+        margin-left: $unit;
+      }
+    }
+  }
+
+  .filtersWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: $unit*5;
+    padding-bottom: $unit;
+  }
+}
+
+:export {
+  downLoadIconColor: $_blue-main;
+}

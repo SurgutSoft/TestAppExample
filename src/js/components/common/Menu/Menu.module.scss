@@ -1,0 +1,41 @@
+@import "src/styles/vars";
+
+.wrapper{
+  background-color: $color-bg-dark-blue;
+  width: 170px;
+  height: 37px;
+  border-radius: $border-radius-big;
+  position: relative;
+
+  button {
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: $border-radius-big;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0, -50%);
+
+    .content{
+      @include PrimarySemibold;
+      font-weight: 500;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: $color-text-white;
+      margin: 0 $unit*2;
+      text-transform: none;
+    }
+
+    .rotateArrow{
+      transform: rotate(-180deg);
+    }
+
+    svg{
+      margin-right: $unit*2;
+    }
+    
+  }
+}

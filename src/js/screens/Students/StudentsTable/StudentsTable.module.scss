@@ -1,0 +1,70 @@
+@import "src/styles/vars";
+
+
+.avatarWrapper {
+  width: 36px;
+  height: 36px;
+  border-radius: 100px;
+  background-color: $color-bg-gray-light;
+  overflow: hidden;
+  margin-left: $unit*4;
+
+  img {
+    width: 36px;
+  }
+}
+
+.nameCol {
+  font-weight: 600 !important;
+}
+
+.actionCol {
+  padding-left: 0 !important;
+}
+
+.actionCell {
+  cursor: pointer;
+  padding-left: 0 !important;
+}
+
+.sortCol {
+  cursor: pointer;
+  min-width: 85px;
+  
+  .flexWrapper {
+    display: flex;
+    align-items: center;
+
+    div {
+      padding-left: $unit;
+    }
+  }
+}
+
+.donationCol {
+  @extend .sortCol;
+  width: 80px;
+  padding-right: 0 !important;
+}
+
+.grayColor {
+  color: $color-text-secondary !important;
+}
+
+.greenColor {
+  color: $color-text-green !important;
+}
+
+.activeSortCol {
+  @include PrimarySemibold;
+  font-weight: 600 !important;
+
+  span{
+    color: $color-text-primary;
+    font-weight: 600 !important;
+  }
+}
+
+.sortDirection {
+  transform: rotate(-180deg);
+}

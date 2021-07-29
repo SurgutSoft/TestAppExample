@@ -1,0 +1,78 @@
+@import "src/styles/vars";
+
+.dateColumn {
+  padding-left: $unit*4 !important;
+}
+
+.donationsColumn {
+  width: 120px;
+}
+
+.commentColumn {
+  width: 30%;
+}
+
+.beneficiaryColumn {
+  padding-right: $unit*3 !important;
+}
+
+.dateCell {
+  @include PrimarySemibold;
+  padding-left: $unit*4 !important;
+  font-weight: 600 !important;
+  color: $color-text-primary !important;
+}
+
+.amountCell {
+  @include PrimarySemibold;
+  font-weight: 600 !important;
+  color: $color-text-primary !important;
+}
+
+.redirectCell {
+  a {
+    display: flex;
+    align-items: center;
+    svg {
+      padding-left: $unit;
+    }
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.nameWrapper {
+  display: grid;
+  gap: $unit/2;
+  padding-left: $unit;
+
+  .name {
+    @include PrimarySemibold;
+  }
+
+  .description {
+    @include SmallSemibold;
+    color: $color-text-secondary !important;
+  }
+}
+
+.beneficiaryWrapper {
+  @extend.nameWrapper;
+
+  .description {
+    font-size: 10px !important;
+    line-height: 10px !important;
+  }
+
+  .name {
+    @include TextRegular;
+    font-size: 12px !important;
+    line-height: 12px !important;
+  }
+}
+
+:export {
+  redirectSvgColor: $_gray-600;
+}

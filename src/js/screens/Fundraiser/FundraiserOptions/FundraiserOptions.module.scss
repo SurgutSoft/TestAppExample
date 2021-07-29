@@ -1,0 +1,16 @@
+@import "src/styles/vars";
+
+.wrapper {
+  display: grid;
+  gap: $unit;
+
+  .rowWrapper {
+    display: flex;
+    align-items: center;
+    margin-left: -9px;
+
+    .text{
+      margin: 0 $unit;
+    }
+  }
+}

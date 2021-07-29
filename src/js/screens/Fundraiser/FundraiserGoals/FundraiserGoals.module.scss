@@ -1,0 +1,25 @@
+@import "src/styles/vars";
+
+.wrapper {
+  display: grid;
+  gap: $unit;
+
+  .titleWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flexWrapper {
+    display: flex;
+    justify-content: flex-start;
+
+    .gridWrapper {
+      display: grid;
+      gap: $unit*4;
+    }
+
+    .gridWrapper+.gridWrapper {
+      padding-left: $unit*6;
+    }
+  }
+}

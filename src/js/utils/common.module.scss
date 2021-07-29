@@ -1,0 +1,10 @@
+@import "src/styles/vars";
+
+:export {
+  blueBgAvatar: $_avatar_blue;
+  redBgAvatar: $_avatar_red;
+  purpleBgAvatar: $_avatar_purple;
+  darkBluBgAvatar: $_avatar_dark_blue;
+  greenBgAvatar: $_avatar_green;
+  defaultBgAvatar: $_avatar_default;
+}

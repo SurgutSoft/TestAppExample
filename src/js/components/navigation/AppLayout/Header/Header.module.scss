@@ -1,0 +1,36 @@
+@import "src/styles/vars";
+
+.wrapper{
+  width: 100%;
+  height: $body-header-height ;
+  background-color: $color-bg-primary-header;
+
+  .conent {
+    display: flex;
+    padding-top: 22px;
+    padding-left: 97px;
+
+    .logo {
+      min-width: 175px;
+    }
+
+    .contentMenu {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0 $unit*4;
+
+      .breadCrumb {
+        display: flex;
+        align-items: center;
+
+        .bread{
+          @include Title;
+          min-width: 220px;
+          padding-left: $unit*3;
+          color: $color-text-white;
+        }
+      }
+    }
+  }
+}

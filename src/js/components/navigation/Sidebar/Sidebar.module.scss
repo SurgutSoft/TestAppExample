@@ -1,0 +1,126 @@
+@import "src/styles/vars";
+
+.sidebar {
+  width: $sidebar-width;
+  border-radius: 0 40px 0 0;
+  height: 100vh;
+  overflow: hidden;
+
+  .logoWrapper {
+    cursor: default;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+
+    .closeMenu {
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    img {
+      position: absolute;
+      width: 200px;
+      padding-left: $unit*3;
+    }
+  }
+
+  .header {
+    padding: $unit*5 0 0 $unit*3;
+    height: 60px;
+    background-color: $color-bg-white;
+
+    .animals {
+      display: flex;
+      padding-top: $unit*1.5;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+
+      & > * {
+        margin-bottom: $unit;
+        margin-right: $unit;
+
+        &:nth-last-of-type(1) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.menuItem {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  background-color: $color-white;
+  
+  .route {
+    @include PrimarySemibold;
+    color: $color-text-secondary;
+
+    svg {
+      fill: $_gray-600;
+    }
+
+    .strokeSvg {
+      stroke: $_gray-600;;
+    }
+
+    &:hover {
+      color: $color-text-red;
+
+      svg {
+        fill: $_red;
+      }
+
+      .strokeSvg {
+        stroke: $_red;
+      }
+    }
+  }
+
+  .selectedRoute {
+    @include PrimarySemibold;
+    color: $color-text-red;
+
+    svg {
+      fill: $_red;
+    }
+
+    .strokeSvg {
+      stroke: $_red;
+    }
+  }
+
+  .commonNavStyle {
+    align-items: center;
+    line-height: 1;
+    padding: $unit*1.5 $unit*2.5;
+    display: flex;
+    color: $color-text-primary;
+    cursor: pointer;
+    transition: all 200ms ease-out;
+
+    svg {
+      &:hover {
+        fill: red;
+      }
+    }
+  }
+
+  .menuBtn {
+    @extend.commonNavStyle;
+    margin-bottom: $unit*6;
+    display: flex;
+    justify-content: center; 
+  }
+
+  a {
+    @include TextRegular;
+    @extend.commonNavStyle;
+
+    div {
+      padding-left: $unit*3;
+    }
+  }
+}

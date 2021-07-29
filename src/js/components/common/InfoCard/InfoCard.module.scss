@@ -1,0 +1,40 @@
+@import "src/styles/vars";
+
+.wrapper {
+  display: grid;
+  min-height: 56px;
+
+  .titleWrapper {
+    display: flex;
+    align-items: center;
+    
+    .icon {
+      padding-right: $unit;
+    }
+
+    .subTitle{
+      @include PrimarySemibold;
+      margin-top: $unit;
+      font-weight: 500;
+    }
+
+    .title{
+      @include H1_Medium;
+    }
+
+    .blueTitle {
+      @extend.title;
+      color: $color-text-blue-dark;
+    }
+
+    .blackTitle {
+      @extend.title;
+      color: $color-text-primary;
+    }
+  }
+
+  .descriptionWrapper{
+    @include PrimarySemibold;
+    color: $color-text-secondary;
+  }
+}

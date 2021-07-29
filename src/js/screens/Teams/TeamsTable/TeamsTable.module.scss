@@ -1,0 +1,99 @@
+@import "src/styles/vars";
+
+//columns
+.teamLeadNameColumn {
+  padding-left: 40px !important;
+  min-width: 140px;
+
+  div {
+    width: 90px;
+  }
+}
+
+.registredCountColumn {
+  width: 160px;
+  cursor: pointer;
+
+  .flexWrapper {
+    display: flex;
+    align-items: flex-end;
+
+    span {
+      width: 130px;
+    }
+  }
+}
+
+
+
+//cells
+.teamLeadNameCell {
+  display: flex;
+  align-items: center;
+  padding-left: 40px !important;
+
+  .nameWrapper {
+    display: grid;
+    gap: $unit/2;
+    padding-left: $unit;
+
+    .name {
+      @include PrimarySemibold;
+      color: $color-text-primary !important;
+    }
+
+    .email {
+      @include SmallSemibold;
+      color: $color-text-secondary !important;
+    }
+  }
+}
+
+.donationCol {
+  @extend .sortCol;
+  width: 85px;
+  padding-right: 0 !important;
+}
+
+.actionCol {
+  padding-left: 0 !important;
+}
+
+.grayColor {
+  color: $color-text-secondary !important;
+}
+
+// sort styles
+
+.sortCol {
+  cursor: pointer;
+  min-width: 85px;
+  
+  .flexWrapper {
+    display: flex;
+    align-items: center;
+
+    div {
+      padding-left: $unit;
+    }
+  }
+}
+
+.actionCell {
+  cursor: pointer;
+  padding-left: 0 !important;
+}
+
+.activeSortCol {
+  @include PrimarySemibold;
+  font-weight: 600 !important;
+
+  span{
+    color: $color-text-primary;
+    font-weight: 600 !important;
+  }
+}
+
+.sortDirection {
+  transform: rotate(-180deg);
+}

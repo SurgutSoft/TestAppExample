@@ -1,0 +1,44 @@
+//Color palette (from figma)
+$_blue-main: #00AEEF;
+$_blue-dark: #009BD5;
+$_red: #F0503C;
+$_green: #1E960A;
+$_purple: #B14FDD;
+$_gray-900: #3F4851;
+$_gray-600: #8089A6;
+$_gray_500: #A9B0BB;
+$_gray_300: #E5E5E5;
+$_gray-200: #ECF5FA;
+$color-white: #FFFFFF;
+$color-white-dark: #f9f9f9;
+$_color-black:#202C54;
+
+// Avatar background colors
+$_avatar_blue: #00AEEF;
+$_avatar_red: #F0503C;
+$_avatar_purple: #B14FDD;
+$_avatar_dark_blue: #009BD5;
+$_avatar_green: #1E960A;
+$_avatar_default: $_gray_500;
+
+//Text colors
+$color-text-primary: $_gray-900;
+$color-text-secondary: $_gray-600;
+$color-text-placeholder: $_gray-500;
+$color-text-white: $color-white;
+$color-text-black: $_color-black;
+$color-text-blue-dark: $_blue-dark;
+$color-text-red: $_red;
+$color-text-green: $_green;
+
+
+//Background colors
+$color-bg-primary-header: $_blue-main;
+$color-bg-dark-blue: $_blue-dark;
+$color-bg-gray-light: $_gray-200;
+$color-bg-white: $color-white;
+$color-bg-focus-table-row: $color-white-dark;
+
+//border color
+$color-border-gray: $_gray_500;
+$color-border-gray-light: $_gray_300;

@@ -1,0 +1,120 @@
+{
+    "sidebar": {
+        "overview": "Overview",
+        "fundraiser": "Fundraiser Details",
+        "teams": "Teams & Team leads",
+        "students": "Students",
+        "donations": "Donations",
+        "print": "Print invite letter"
+    },
+    "buttons": {
+        "edit": "Edit",
+        "delete": "Delete",
+        "change": "Change",
+        "preview": "Preview",
+        "save": "Save",
+        "cancel": "Cancel",
+        "upload": "Upload",
+        "export": "Export",
+        "add": "Add"
+    },
+    "fundraiser_details": {
+        "fundraiser_story": "Fundraiser Story",
+        "fundraiser_name": "Fundraiser name",
+        "end_date": "End date",
+        "school_name": "School name",
+        "us_state": "US State",
+        "zip_code": "Zip code",
+        "city": "City",
+        "modal_upload_image_description": "Upload photo from your computer. Supported formats: JPEG, PNG. Maximum file size is 5Mb.",
+        "modal_upload_video_description": "Insert link to video (from YouTube or Vimeo). Keep epmty to remove video.",
+        "no_video": "No video",
+        "no_image": "No image",
+        "modal_upload_title": "Fundraiser {0}",
+        "modal_upload_video_link": "video link"
+    },
+    "fundraiser_options": {
+        "fundraiser_view_options": "Fundraiser view options",
+        "show_books_as_reading_goal": "Show books as reading goal",
+        "show_donor_messages_on_Donation_page": "Show donor messages on Donation page",
+        "allow_students_to_see_raised_donations_of_teammates": "Allow students to see raised donations of teammates",
+        "allow_students_to_see_the_teammates_donation_pages": "Allow students to see the teammates donation pages"
+    },
+    "fundraiser_goals": {
+        "title": "Fundraiser Goals",
+        "fundraising_goal": "Fundraising goal",
+        "student_goal": "Student goal",
+        "reading_minutes": "Reading minutes",
+        "minutes_per_student": "Minutes per student",
+        "reading_books": "Reading books",
+        "books_per_student": "Books per student",
+        "students_count": "# students",
+        "participants_goal": "Participants goal (# students)"
+    },
+    "students": {
+        "title": "Student Roster",
+        "sub_title": "{0} students of {1} registered",
+        "invite_btn": "Invite students",
+        "filters": {
+            "search_by_name_email": "Search by name / email",
+            "registration_type": "Registraton type",
+            "team": "Team"
+        },
+        "table_columns": {
+            "name": "Name",
+            "active_at": "Active at",
+            "grade": "Grade",
+            "minutes": "Minutes",
+            "books": "Books",
+            "donations": "Donations"
+        }
+    },
+    "teams": {
+        "title": "Teams & Team leaders",
+        "sub_title": "Create all teams before inviting students to your fundraiser.",
+        "create_btn": "Create team",
+        "table_columns": {
+            "name": "TEAM LEADER NAME",
+            "registredCount": "STUDENTS REGISTERED / TOTAL",
+            "grade": "Grade",
+            "minutes": "Minutes",
+            "books": "Books",
+            "donations": "Donations"
+        }
+    },
+    "donations": {
+        "title": "Donations",
+        "download_csv": "Download CSV",
+        "yes": "yes",
+        "no": "no",
+        "view": "View",
+        "table_columns": {
+            "date": "Date",
+            "donation": "Donation",
+            "netAmount": "NET AMOUNT",
+            "fee": "FEE",
+            "donor": "Donor",
+            "comment": "Comment",
+            "corp_matvhing": "Corp. Matching",
+            "team": "Team",
+            "beneficiary": "Beneficiary",
+            "stripe": "STRIPE"
+        }
+    },
+
+    "overview": {
+        "fundraiser_report": "Fundraiser Report",
+        "reading_report": "Reading report",
+        "donation_list": "Donation list",
+        "sessions": "Sessions",
+        "minutes": "Minutes",
+        "books": "Books",
+        "raised_from": "Raised from ${0}",
+        "avg_donations_size": "Avg. Donation Size",
+        "avg_per_student": "Avg. Per Student",
+        "received_a_donation": "Received a donation",
+        "students_registred_total": "Students registered / total",
+        "minutes_read_goal": "Minutes read / goal",
+        "books_read_goal": "Books read / goal"
+    }
+}

@@ -1,0 +1,27 @@
+@import "src/styles/vars";
+
+.input {
+  @include TextRegular;
+  width: 100%;
+  height: 42px;
+
+  label {
+    @include SmallSemibold;
+    color: $color-text-secondary;
+    overflow: hidden !important;
+  }
+
+  .adornment{
+    @include TextRegular;
+    color: $color-text-secondary;
+  }
+}
+
+
+
+:export {
+  borderColor: $_gray_500;
+  borderColorFocused: $_blue-main;
+  labelTextColor: $color-text-secondary;
+  ocusedTextColor: $_blue-main;
+}
